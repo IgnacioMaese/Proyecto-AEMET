@@ -1,52 +1,56 @@
-		Proyecto análisis de datos api AEMET 
+		Proyecto anÃ¡lisis de datos api AEMET 
 
 Ciudades de estudio: 
-			Barcelona, estación: “0200E”
-			Málaga, estación “6155A”
-			Valencia estación “8414A”
+			Barcelona, estaciÃ³n: â€œ0200Eâ€
+			MÃ¡laga, estaciÃ³n â€œ6155Aâ€
+			Valencia estaciÃ³n â€œ8414Aâ€
 
-Años de estudio: 2024, 2020, 2015, 2010, 2005
+AÃ±os de estudio: 2024, 2020, 2015, 2010, 2005
 
 - En primer lugar hemos bajado todos los datos de la api de la AEMET con este enlace:
    https://opendata.aemet.es/opendata/api/valores/climatologicos/inventarioestaciones/todasestaciones"
 
 
 - En segundo lugar hemos procedido a su limpieza
-- En tercer lugar hemos hecho un análisis de:
+- En tercer lugar hemos hecho un anÃ¡lisis de:
 
 	MEDIAS:
 
-		Media de temperatura máxima por años en cada ciudad.
-		Media de temperatura mínima por años en cada ciudad .
-		Media de días de lluvia por años en cada ciudad.
-		Media de las rachas de viento por años en cada ciudad.
-		Media de la humedad relativa por años en cada ciudad.
-		Media de la precipitación por años en cada ciudad.
+		Media de temperatura mÃ¡xima por aÃ±os en cada ciudad.
+		Media de temperatura mÃ­nima por aÃ±os en cada ciudad .
+		Media de dÃ­as de lluvia por aÃ±os en cada ciudad.
+		Media de las rachas de viento por aÃ±os en cada ciudad.
+		Media de la humedad relativa por aÃ±os en cada ciudad.
+		Media de la precipitaciÃ³n por aÃ±os en cada ciudad.
 
-	MÁXIMAS:
+	MÃXIMAS:
 	
-		Máxima de temperatura máxima por años en cada ciudad .
-		Máxima de d?as de lluvia por años en cada ciudad.
-		Máximas de las rachas de viento por años en cada ciudad.
-		Máximas de la humedad relativa por años en cada ciudad.
-		Máximas de la precipitación por años en cada ciudad.	
+		MÃ¡xima de temperatura mÃ¡xima por aÃ±os en cada ciudad .
+		MÃ¡xima de temperatura mÃ­nima por aÃ±os en cada ciudad.
+		MÃ¡xima de dÃ­as de lluvia por aÃ±os en cada ciudad.
+		MÃ¡ximas de las rachas de viento por aÃ±os en cada ciudad.
+		MÃ¡ximas de la humedad relativa por aÃ±os en cada ciudad.
+		MÃ¡ximas de la precipitaciÃ³n por aÃ±os en cada ciudad.	
 
-	MÍNIMAS:
+	MÃNIMAS:
 
-		Mínima de temperatura mínima por años en cada ciudad.
-		Mínima de d?as de lluvia por años en cada ciudad.
-		Mínima de las rachas de viento por años en cada ciudad .
-		Mínima de la humedad relativa por años en cada ciudad.
-		Mínima de la precipitación por años en cada ciudad.	
+		MÃ­nima de temperatura mas alta por aÃ±os en cada ciudad.
+		MÃ­nima de temperatura mÃ­nima por aÃ±os en cada ciudad.
+		MÃ­nima de dÃ­as de lluvia por aÃ±os en cada ciudad.
+		MÃ­nima de las rachas de viento por aÃ±os en cada ciudad .
+		MÃ­nima de la humedad relativa por aÃ±os en cada ciudad.
+		MÃ­nima de la precipitaciÃ³n por aÃ±os en cada ciudad.	
 
--En cuarto lugar hemos hecho gráficos:
+-En cuarto lugar hemos hecho grÃ¡ficos:
 
-		Gráfico temperatura máxima por años en cada ciudad
-		Gráfico temperaturas mínimas por años en cada ciudad.
-		Gráfico de precipitaciones por años en cada ciudad.
-		Gráfico de temperaturas máximas por años
-		Gráfico de temperaturas mínimas por años
+		GrÃ¡fico temperatura mÃ¡xima por aÃ±os en cada ciudad
+		GrÃ¡fico temperaturas mÃ­nimas por aÃ±os en cada ciudad.
+		GrÃ¡fico de precipitaciones por aÃ±os en cada ciudad.
+		GrÃ¡fico de temperaturas mÃ¡ximas por aÃ±os en cada ciudad.
+		GrÃ¡fico de temperaturas mÃ­nimas por aÃ±os en cada ciudad
+		Histograma de temperaturas mÃ¡ximas por aÃ±os en cada ciudad.
+		Histograma de temperaturas mÃ­nimas por aÃ±os en cada ciudad.
 
 -En quinto lugar:
 
-		Correlación entre la media de los años
+		CorrelaciÃ³n entre la media de los aÃ±os en cada ciudad.
